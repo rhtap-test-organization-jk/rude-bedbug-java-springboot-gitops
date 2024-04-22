@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: rude-bedbug-java-springboot-repository
+spec:
+  url: https://github.com/rhtap-test-organization-jk/rude-bedbug-java-springboot
